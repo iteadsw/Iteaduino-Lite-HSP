@@ -1,0 +1,31 @@
+Iteaduino-Lite-HSP
+==================
+
+Arduino IDE 1.5.x support
+
+//=================================================
+// LogicGreen 2014/04/15
+//
+// Ardunio 3rd-party hardware package for LGT8F
+//	Installation Guide
+//=================================================
+
+1. Features
+	> Support arduino 1.0.x and 1.5.x
+	> Support bootloader by optiboot
+	> Bootloader baudrate: 19200bps
+	> Support board: Larduino & LGT8F88A MiniDev
+
+2. Package contents
+	
+	+ hardware : 3rd party hardware support package
+	|    |
+	|    + LGT : package for support arduino 1.5.x
+	|    |
+	|    + LGT8F : package for support arduino 1.0.x
+	|
+	+ libraries : 3rd party hardware library
+	     |
+	     + LGTE2PROM : e2prom library & samples
+	     |
+	     + LGTSoftUART : Software UART library & samples
